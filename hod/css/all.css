@@ -1,0 +1,228 @@
+.container-fluid
+{
+	background-color: #05147D;
+	font-family: 'Montserrat';
+	padding:40px;
+}
+.header-text, .footer-text
+{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	color:#ffffff;
+	font-weight:600;
+	font-size:22px;
+	text-align: center;
+}
+.image-left
+{
+	float:left;
+	width: 50%;
+}
+.right-content
+{
+	float:right;
+	width: 50%;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.card
+{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	width:100%;
+	margin-top: 100px;
+	padding: 50px;
+	padding-bottom: 30px;
+}
+.container1
+{
+	font-family: Montserrat;
+	font-weight: 300;
+	align-content: center;
+}
+
+input[type=text],[type=password],[type=email]
+{
+	border: none;
+	border-bottom: 3px solid #ffc107;
+	padding: 10px;
+	width: 100%;
+}
+
+input[type=date]
+{
+	border: none;
+	border-bottom: 3px solid #ffc107;
+}
+
+button
+{
+	border-radius: 10px;
+	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px; 
+	background-color: #ffc107;
+	color: #ffffff;
+	font-weight: 500px;
+	border-style: none;
+}
+
+@media screen and (max-width: 1080px)
+{
+	.image-left
+	{
+		width: 100%;
+	}
+	.right-content
+	{
+		width:100%;
+	}
+}
+
+.radioN {
+  cursor: pointer;
+  appearance: none;
+  background-color: #ffc107;
+}
+
+select
+{
+	border: none;
+	border-bottom: 3px solid #ffc107;
+	padding: 10px;
+	width: 100%;
+}
+
+
+.nav
+{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	text-decoration: none;
+	list-style-type: none;
+	background-color: #05147D;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	font-family: 'Montserrat';
+}
+
+.nav li
+{
+	display: inline-block;
+	font-size: 20px;
+	padding:25px;
+	color: #ffffff;
+}
+
+.nav li a
+{
+	text-decoration: none;
+	color: inherit;
+}
+
+.center
+{
+	width: 100%;
+	height: 600px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	padding: 50px;
+}
+
+.center-content
+{
+	width:50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	display: block;
+	font-family: Montserrat;
+}
+
+.nav li.active, .nav li.active:hover
+{
+	background-color: #ffffff;
+	color: #05147D; 
+}
+
+.nav li:hover
+{
+	background-color: #ffc107;
+	color: #000000;
+}
+
+
+input[type=text],[type=password],[type=number]
+{
+	border: none;
+	border-bottom: 3px solid #ffc107;
+	padding: 10px;
+	width: 100%;
+}
+
+.header-form
+{
+	color: #05147D;
+	font-family: Montserrat;
+	font-weight:600;
+	font-size:22px;
+	text-align: center;
+	padding-left:20px;
+
+}
+
+button
+{
+	border-radius: 10px;
+	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px; 
+	background-color: #ffc107;
+	color: #000000;
+	font-weight: 500px;
+	border-style: none;
+}
+
+.calender
+{
+	margin-top:20px;
+	width: 800px;
+	height: 600px;
+	margin-left:auto;
+	margin-right: auto;
+	display: block;
+}
+
+.date, .month, .year
+{
+	border: none;
+	border-bottom: 3px solid #ffc107;
+	padding: 10px;
+	
+}
+
+table
+{
+	width: 100%;
+	font-family: Montserrat;
+}
+
+table th
+{
+	background-color: #05147D;
+	color: #fff;
+	font-family: inherit;
+	font-weight: 600;
+	padding: 10px;
+	text-align: center;
+}
+
+table tr
+{
+	border-bottom: 3px solid #ffc107;
+	padding: 10px;
+	font-weight: 300;
+	text-align: center;
+}
